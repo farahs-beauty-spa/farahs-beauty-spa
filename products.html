@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah's Beauty Spa</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        /* Style for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Font Styles */
+
+        .title_text {
+        font-family: 'Arima', serif;
+        color: #452f14;
+        }
+
+        
+        .ad_text {
+        font-family: 'Arima', serif;
+        color: #41668a;
+        }
+
+        .sub_text{
+            font-family:'Merriweather', serif;
+            color: black;
+        }
+
+        .header_text{
+            font-family:'Lora', serif;
+            color: 	#724219 ;
+        }
+
+        .body_text{
+            font-family:'Merriweather', serif;
+            color: black;
+        }
+
+        .contact_text{
+            font-family:'Merriweather', serif;
+            color: #461117;
+        }
+    
+    </style>
+</head>
+
+<body class="font-sans text-gray-900" style="background:#bfa088;">
+    <!-- Header with Top Navigation -->
+    <header class="shadow-md sticky top-0 z-50" style="background-color: #aa8a72;">
+        <div class="container mx-auto flex justify-center items-center p-4">
+            <!-- Navigation Menu -->
+            <nav class="space-x-6">
+                <a href="index.html#about" class=" sub_text text-lg md:text-lg lg:text-xl hover:text-gray-900">About Us</a>
+                <a href="products.html" class=" sub_text text-lg md:text-lg lg:text-xl nav-link hover:text-gray-900">Products</a>
+                <a href="services.html" class=" sub_text text-lg md:text-lg lg:text-xl nav-link hover:text-gray-900">Services</a>
+                <a href="index.html#contact" class="sub_text text-lg md:text-lg lg:text-xl nav-link hover:text-gray-900">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Section  -->
+    <main>
+        <section class="text-white text-center py-10">
+            <div class="container mx-auto px-6">
+                 <div class="relative z-10 py-10">
+                    <h1 class="title_text text-5xl md:text-6xl lg:text-7xl mb-4">Available Products</h1>
+                </div>
+            </div>
+            <div class="container mx-auto px-6">
+                <div class="relative z-10 py-10">
+                   <h1 class="ad_text text-5xl md:text-6xl lg:text-7xl mb-4">Glymed Plus Skin Care</h1>
+               </div>
+           </div>
+        </section>
+        
+        <section id="products" class="py-16 px-6">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        
+                    <!-- Product Example 1 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/elixer.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Restoring Fulvic Elixir</h3>
+                        <div id="productForm1" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    One of the best-selling serums. It is a fast-absorbing serum that targets many conditions, suitable for sensitive, normal, dry, and oily skin. Known for its anti-inflammatory, antiviral, antibacterial, and antioxidant properties, it promotes healing for a healthy and youthful look.
+                                </p>
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $86
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+        
+                    <!-- Product Example 2 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/comfortcream.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Comfort Cream</h3>
+                        <div id="productForm2" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    This moisturizer fortified with pure concentrated aloe vera to hydrate, soothe, protect, and heal the skin.
+                                    It is good after any harsh treatment as waxing dermaplaning,peels and permanent makeup.
+                                    For Sensitive normal dry oily combination skin.
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $60
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <!-- Product Example 3 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/rejuvserum.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Retinol Rejuvenation Serum</h3>
+                        <div id="productForm3" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    Retinol Rejuvenation Serum delivers the maximum concentration of 5% retinol in a serum to influence
+                                    collagen and speed skin renewal to diminish the appearance of fine lines, acne, wrinkles, and hyperpigmentation.
+                                </p>
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $160
+                                </p>
+                            </div>
+                        </div>    
+                    </div> 
+
+                    <!-- Product Example 4 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/tone.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Brilliant Tone </h3>
+                        <div id="productForm4" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    This new addition to glymed plus had been getting an amazing result in the first couple weeks.
+                                    This serum is especially formulated to target skin with stubborn hyperpigmentation for achieving even skin tone and glow tone.
+                                    For all skin types.
+                                </p>
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $145
+                                </p>
+                            </div>
+                        </div>    
+                    </div> 
+
+                    <!-- Product Example 5 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/meagacream.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Mega Cream Cleanser</h3>
+                        <div id="productForm5" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    This cleanser is gently cleansing the skin without leaving your skin dry or irritated. This product not only provides
+                                    a deep clean but it contains the age-defying antioxidant vitamin E to combat dryness, extrinsic assaults, and the harmful 
+                                    irritants that lead to premature aging. Use as a 1st cleanse to remove makeup- safe for lash extensions.
+                                    For combination, oily normal, sensitive, dry skin.
+                                </p>
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $60
+                                </p>
+                            </div>
+                        </div>    
+                    </div> 
+                    
+                    <!-- Product Example 6 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/idyllic.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Idyllic Cleanser</h3>
+                        <div id="productForm6" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    Our preferred homecare cleanser. Idyllic Cleanser contains 3% Mandelic Acid, and is formulated to gently exfoliate,
+                                    control acne-causing bacteria, and brighten the skin. This cleanser provides anti-aging and gentle exfoliation benefits.
+                                    It is recommended for mild to moderate concerns. Suitable for all skin tones, acne grades, and skin types,
+                                    this mild-active cleanser can be used every day.
+                                </p>
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $60
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <!-- Product Example 7 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <img src="imgs/mist.png" alt=" " class="w-full h-auto object-cover mb-4">
+                        <h3 class="text-3xl text-center font-semibold mb-2">Skin Recovery Mist</h3>
+                        <div id="productForm7" class="flex items-start py-5">
+                            <div class="mb-4">
+                                <p class="options_text text-xl md:text-lg lg:text-lg ml-2">
+                                    This mist is a life saver, it is the favourite product for every aesthetician.
+                                    It leaves skin hydrated in luminous glow formulted with hyaluronic acid algae and vitamin B.
+                                    It is good for outdoor enthusiasts.
+                                    It can be used like a toner for ph balance.
+                                </p>
+                                <p class="body_text text-xl md:text-lg lg:text-3xl ml-2 mt-2">
+                                    <br><b>Price:</b> $60
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+
+                </div>    
+            </div>  
+        </section> 
+
+        <section class="text-white text-center">
+            <div class="container mx-auto px-6">
+                 <div class="relative z-10">
+                    <p class="contact_text text-2xl md:text-3xl lg:text-3xl mb-4"><b>To order a product, please send me a message on instagram:
+                        <a href="https://www.instagram.com/farahs_beauty_spa?igsh=MWU1cHNnMjNhN21qcQ=="><b>@farahs_beauty_spa</b></a>
+                    </p>
+                 </div>
+            </div>
+        </section>
+                            
+                
+    </main>
+
+
+    <script>
+    </script>
+
+</body>
+</html>

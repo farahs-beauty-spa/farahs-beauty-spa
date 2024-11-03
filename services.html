@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah's Beauty Spa</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        /* Style for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Font Styles */
+
+        .title_text {
+        font-family: 'Arima', serif;
+        color: #452f14;
+        }
+
+        
+        .ad_text {
+        font-family: 'Arima', serif;
+        color: #41668a;
+        }
+
+        .sub_text{
+            font-family:'Merriweather', serif;
+            color: black;
+        }
+
+        .header_text{
+            font-family:'Lora', serif;
+            color: 	#724219 ;
+        }
+
+        .body_text{
+            font-family:'Merriweather', serif;
+            color: black;
+        }
+
+        .contact_text{
+            font-family:'Merriweather', serif;
+            color: #461117;
+        }
+    
+    </style>
+</head>
+
+<body class="font-sans text-gray-900" style="background:#bfa088;">
+    <!-- Header with Top Navigation -->
+    <header class="shadow-md sticky top-0 z-50" style="background-color: #aa8a72;">
+        <div class="container mx-auto flex justify-center items-center p-4">
+            <!-- Navigation Menu -->
+            <nav class="space-x-6">
+                <a href="index.html#about" class=" sub_text text-lg md:text-lg lg:text-xl hover:text-gray-900">About Us</a>
+                <a href="products.html" class=" sub_text text-lg md:text-lg lg:text-xl nav-link hover:text-gray-900">Products</a>
+                <a href="services.html" class=" sub_text text-lg md:text-lg lg:text-xl nav-link hover:text-gray-900">Services</a>
+                <a href="index.html#contact" class="sub_text text-lg md:text-lg lg:text-xl nav-link hover:text-gray-900">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Section  -->
+    <main>
+        <section class="text-white text-center pt-10 pb-4">
+            <div class="container mx-auto px-6">
+                 <div class="relative z-10 pt-10 pb-4">
+                    <h1 class="title_text text-5xl md:text-6xl lg:text-7xl mb-4">Available Services</h1>
+                    <a href="#serviceForm10" class="contact_text text-lg md:text-xl lg:text-3xl"><u>Check out the special deal!</u></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="py-16 px-6">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 gap-4">
+            
+                    <!-- Product Example 1 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Lip Blushing</h3>
+                        <div id="serviceForm1" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                                Lip blushing is a two-and-a-half-hour procedure using a tattoo pen to deposit ink that is your favorite color.
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 2h 45mins
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $220
+                            </p>                                 
+                        </div>
+                    </div>  
+
+                    <!-- Service 2 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Lip Gloss</h3>
+                        <div id="serviceForm2" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                                This procedure is for hydrating and plumping your lips  that are thinning
+                                dry and suffering from smoker line, this procedure enhancing lip colour
+                                and texture by adding some  colour and moisturizing serums.
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 1h
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $100
+                            </p>                                 
+                        </div>
+                    </div>                   
+        
+                    <!-- Service 3 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Microdermabrasion</h3>
+                        <div id="serviceForm3" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                                This facial  treats back  by  using diamond tip it enhanced the keratosis
+                                pilaris that caused by building dead skin forming small bombs in hair follicles. 
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 1h
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $80
+                            </p>                                 
+                        </div>
+                    </div> 
+                     
+                    <!-- Service 4 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Superficial Peels</h3>
+                        <div id="serviceForm4" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                                This facial is no down time ,works on inside out layer skin many steps taken accurately
+                                with pharmaceuticals products following with cooling mask and led mask. 
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 55mins
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $75
+                            </p>                                 
+                        </div>
+                    </div>  
+
+                    <!-- Service 5 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Glow Anti Aging Facial</h3>
+                        <div id="serviceForm5" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 55mins
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $70
+                            </p>                                 
+                        </div>
+                    </div>  
+                    <!-- Service 6 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Microneedling</h3>
+                        <div id="serviceForm6" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                                It is a 60 min long procedure. This process treats acne scar sun damage tighten pores fine line,
+                                stretching marks and hair thinning. 4 to 6 treatments to get noticeable results. 
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 1hr
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $100
+                            </p>                                 
+                        </div>
+                    </div>
+
+                    <!-- Service 7 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Touch up</h3>
+                        <div id="serviceForm7" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                              This procedure is to correct old tattoo colour using permanent makeup pen.
+                              It is a 2 hours service. This procedure requires a numbing step followed with the right ink colour especially for your skin colour.
+                              To determine duration and price, depends on consultation results.
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 1hr to 2hrs
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $100 - $220
+                            </p>                                 
+                        </div>
+                    </div>  
+                    <!-- Service 8 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Brow Shaping</h3>
+                        <div id="serviceForm8" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 15mins
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $15
+                            </p>                                 
+                        </div>
+                    </div>  
+                    <!-- Service 9 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Brow Cover Up</h3>
+                        <div id="serviceForm9" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Duration:</b> 30mins
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Pricing:</b> $15
+                            </p>                                 
+                        </div>
+                    </div>
+                    <!-- Service 10 -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg">
+                        <h3 class="header_text lg:text-5xl md:text-3xl text-2xl text-center font-semibold mb-2">Peel Package</h3>
+                        <div id="serviceForm10" class="flex flex-col items-start space-y-2 py-5">
+                            <p class="body_text-xl md:text-lg lg:text-2xl ml-2">
+                            Request this package deal and get a <b>20% discount</b> on the follow services:
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Glow Anti Aging Facial:</b> <s>$70</s> $56
+                            </p>                            
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <b>Superficial Peels:</b> <s>$75</s> $60<br>
+                            </p>         
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                                <br><b>Total Duration:</b> 1h 50mins
+                            </p>    
+                            <p class="body_text-xl md:text-lg lg:text-3xl ml-2">
+                            <b>Total Price:</b> $116
+                            </p>                      
+                        </div>
+                    </div>                    
+                </div>    
+            </div>  
+        </section> 
+
+        <section class="text-white text-center">
+            <div class="container mx-auto px-6">
+                 <div class="relative z-10">
+                    <p class="contact_text text-2xl md:text-3xl lg:text-3xl mb-4"><b>To book an appointment, please send me a message on instagram:
+                        <a href="https://www.instagram.com/farahs_beauty_spa?igsh=MWU1cHNnMjNhN21qcQ=="><b>@farahs_beauty_spa</b></a>
+                    </p>
+                 </div>
+            </div>
+        </section>
+                            
+                
+    </main>
+
+
+    <script>
+    </script>
+
+</body>
+</html>
